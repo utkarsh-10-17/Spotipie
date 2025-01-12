@@ -20,8 +20,6 @@ Install the required packages:
 
 Navigate to the repository folder and run:
 
-bash
-Copy code
 pip install -r requirements2.txt
 Set up the Spotify API credentials:
 
@@ -29,7 +27,7 @@ You will need a Spotify Premium account to access the API.
 Create a Spotify Developer account at Spotify Developer Dashboard and create a new app.
 Obtain the CLIENT_ID, CLIENT_SECRET, and set the redirect_uri to http://localhost:8080 in the SpotifyOAuth initialization.
 
-Dependencies
+## Dependencies
 Ensure you have the following dependencies installed:
 
 cv2
@@ -45,10 +43,10 @@ spotipy
 pyttsx3
 threading
 
-Spotify API Setup
+## Spotify API Setup
 To use the Spotify API, you'll need to configure your Spotify Developer credentials as described in the Spotify Developer Documentation. This involves creating an app in the Spotify Developer Dashboard, obtaining CLIENT_ID and CLIENT_SECRET, and configuring your redirect URI to match the one set in your project.
 
-References
+## References
 Some components and methods used in this project were inspired by the following resources:
 
 Spotify-RFID-Record-Player
